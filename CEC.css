@@ -1,6 +1,8 @@
 .container-fluid{
   margin:0px;
-  padding:10px;
+  padding:10px white;
+ 
+  
 }
 /* .row-1{
     display: grid;
@@ -91,7 +93,7 @@
 .swiper .swiper-pagination-bullet-active{
         background:#ffc400;}
 .col-md-8{
-    color:#ffc400;
-padding:10px;
-padding-left: 10px;}
+    color:rgb(12, 12, 86);}
+/* padding:10px;
+padding-left: 10px;} */
   
