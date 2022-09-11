@@ -47,9 +47,9 @@
 .dropbtn {
     width: 100%;
     color:rgb(12, 12, 86);
-    background-color: white;
+    background-color: #e7e4e4;
     padding: 10px;
-    font-size: 15pt;
+    /* font-size: 15pt; */
     align-self:center;
     border: none;}  
   .dropdown-content {
@@ -70,7 +70,8 @@
     text-decoration: none;
     display: block;}
 .nav-item{
-    font-size: 14pt;
+    background-color: #e7e4e4;
+    font-size: large;
     padding:10px;
     z-index: 5; 
     }
