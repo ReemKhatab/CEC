@@ -105,14 +105,23 @@
     padding-left: 10px;}
 
 .col-md-9{
-        width: 500px;
+        width: 30%;
         background-color:  rgb(12, 12, 86);
         color:#ffc400;
         padding:10px;
         padding-left: 10px;
     }
-.col-md-10{
-        width: 500px;
+
+    .col-md-10{
+        width: 40%;
+        background-color: white;
+        color:#ffc400;
+        padding:10px;
+        padding-left: 10px;
+    }
+
+.col-md-11{
+        width: 30%;
         background-color:  rgb(12, 12, 86);
         color:#ffc400;
         padding:10px;
@@ -146,4 +155,8 @@ input[type=submit]:hover {
         width: 50%;
         background-color: #45a049;
     }
+
+label{
+    width: 100px;
+}
   
