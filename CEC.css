@@ -44,14 +44,14 @@
 .btn :hover{
     background-color: rgb(12, 12, 86);
 } */
-.dropbtn {
+/* .dropbtn {
     width: 100%;
     color:rgb(12, 12, 86);
     background-color: #e7e4e4;
     padding: 10px;
-    /* font-size: 15pt; */
+    font-size: 15pt;
     align-self:center;
-    border: none;}  
+    border: none;}   */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -78,6 +78,10 @@
 .nav-item:hover{
     background-color: white;
     z-index: 5;  
+    }
+    .navbar-nav {
+        margin-left: auto;
+        
     }
 .img1{
         width: 100%;
