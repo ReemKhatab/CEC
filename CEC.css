@@ -58,8 +58,7 @@
         background-color:white;
         min-width: 160px;
         z-index: 5;
-        
-        
+                    
     }
     .dropdown-content a:hover {background-color:#ffc400;}
     .dropdown:hover .dropdown-content {display: block;}
@@ -159,4 +158,3 @@
     label{
         width: 100px;
     }
-    
