@@ -99,13 +99,9 @@
        }
 .swiper .swiper-pagination-bullet-active{
         background:#ffc400;}
-/* .col-md-8{
+.col-md-8{
     color:#ffc400;
     padding:10px;
-<<<<<<< HEAD
-    padding-left: 10px;} */
- 
-=======
     padding-left: 10px;}
 
 .col-md-9{
@@ -124,7 +120,7 @@
     }
 
 input[type=text], select, textarea {
-        width: 50%; /* Full width */
+        width: 50%; /* Full width*/
         padding: 12px; /* Some padding */ 
         border: 1px solid #ccc; /* Gray border */
         border-radius: 4px; /* Rounded borders */
@@ -151,4 +147,3 @@ input[type=submit]:hover {
         background-color: #45a049;
     }
   
->>>>>>> 98d1bd8e6f2fadc0a0c5556fe7c0d6945e48cb2c
