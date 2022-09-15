@@ -140,7 +140,7 @@
         
         /* Style the submit button with a specific background color etc */
     input[type=submit] {
-            width: 50%;
+            width: 100%;
             background-color: #04AA6D;
             color: white;
             padding: 12px 20px;
@@ -151,10 +151,12 @@
         
         /* When moving the mouse over the submit button, add a darker green color */
     input[type=submit]:hover {
-            width: 50%;
             background-color: #45a049;
         }
 
     label{
         width: 100px;
+    }
+    textarea{
+        width: 100%;
     }
