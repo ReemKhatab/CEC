@@ -157,6 +157,30 @@
     label{
         width: 100px;
     }
+
     textarea{
         width: 100%;
+    };
+
+    .headings{
+        color:rgb(12, 12, 86);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    };
+    .paragraphs{
+        text-indent: 10px;
+        color:rgb(12, 12, 86);
+        font-size: large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+    .yellowspan{
+        color:#ffc400;
+        font-weight: bold;
+    }
+    .list-group-item{
+        background-color:rgb(255, 252, 252);
+        color:rgb(12, 12, 86);
+        font-weight: 500;
+    }
+    .clientsrows{
+        padding:20px;
+  }
