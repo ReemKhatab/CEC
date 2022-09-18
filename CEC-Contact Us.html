@@ -54,6 +54,7 @@
         
     </nav> 
     <div class="row">
+
       <div class="col-md-9">
          <h1></h1>
  
@@ -333,7 +334,7 @@
           <label for="subject">Subject:-</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
       
-          <input type="submit" value="Submit">
+          <input type="submit" value="Submit"; onclick="sendEmail()">
       </div>
 
       <div class="col-md-10">
@@ -360,23 +361,6 @@
      </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
     </div>
-    </div>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-
-    <script>
-      function sendEmail(){
-        Email.send({
-          Host : "smtp.gmail.com",
-          Username : "mhany2524@gmail.com",
-          Password : "GmailHun009@1233",
-          To : 'mhany2524@gmail.com',
-          From : document.getElementById("email").value,
-          Subject : "New contact from enquiry",
-          Body : "And this is the body"
-      }).then(
-        message => alert(message)
-      );
-      }
-    </script>
+  </div>
 </body>
     
