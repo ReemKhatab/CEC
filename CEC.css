@@ -139,7 +139,7 @@
         }
         
         /* Style the submit button with a specific background color etc */
-    input[type=submit] {
+        .SubmitButton{
             width: 100%;
             background-color: #04AA6D;
             color: white;
@@ -148,10 +148,10 @@
             border-radius: 4px;
             cursor: pointer;
         }
-        
         /* When moving the mouse over the submit button, add a darker green color */
-    input[type=submit]:hover {
+        .SubmitButton:hover{
             background-color: #45a049;
+
         }
 
     label{

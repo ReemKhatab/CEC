@@ -334,11 +334,11 @@
           <label for="subject">Subject:-</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
       
-          <input type="submit" value="Submit"; onclick="sendEmail()">
+          <button class= "SubmitButton" type="button" onclick="SendEmail">Submit</button>
+
       </div>
 
       <div class="col-md-10">
-
 
      </div>
 
@@ -361,6 +361,34 @@
      </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
     </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+    <script>
+      SendEmail({
+        Host : "smtp.yourisp.com",
+        Username : "username",
+        Password : "password",
+        To : 'them@website.com',
+        From : "you@isp.com",
+        Subject : "This is the subject",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+
+    SendEmail({
+      SecureToken : "C973D7AD-F097-4B95-91F4-40ABC5567812",
+      To : 'them@website.com',
+      From : "you@isp.com",
+      Subject : "This is the subject",
+      Body : "And this is the body"
+  }).then(
+    message => alert(message)
+  );
+
+    </script>
   </div>
 </body>
     
