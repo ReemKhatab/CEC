@@ -69,18 +69,16 @@
         text-decoration: none;
         display: block;}
     .nav-item{
-        font-weight: 450;
         display:  block;
-        height: 77px;
         background-color: #e7e4e4;
-        font-size: 12pt;
+        font-size: large;
         padding:10px;
         z-index: 5; 
         border : 2px solid #e7e4e4;
         }
     
     .nav-link{
-        height: 70px;
+        /* height: 70px; */
         align-items: center;
     }
     .navbar-collapse {
