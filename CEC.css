@@ -174,17 +174,18 @@
 
     textarea{
         width: 100%;
-    };
+    }
 
     .headings{
         color:rgb(12, 12, 86);
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    };
+    }
     .paragraphs{
         text-indent: 10px;
         color:rgb(12, 12, 86);
         font-size: large;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       text-align: justify;
     }
     .yellowspan{
         color:#ffc400;
@@ -197,5 +198,18 @@
     }
     .clientsrows{
         padding:20px;
+  }
+  .homehead{
+    text-align: center;
+   padding:20px;
+  }
+  .homerow{
+    background-color: rgb(249, 249, 249);
+    border:10px solid white;
+    padding:10px;
+  }
+  .homelist{
+  color:rgb(12, 12, 86);
+  text-align:justify;
   }
   
