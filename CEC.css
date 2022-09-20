@@ -69,18 +69,34 @@
         text-decoration: none;
         display: block;}
     .nav-item{
+        font-weight: 450;
+        display:  block;
+        height: 77px;
         background-color: #e7e4e4;
-        font-size: large;
+        font-size: 12pt;
         padding:10px;
         z-index: 5; 
+        border : 2px solid #e7e4e4;
         }
+    
+    .nav-link{
+        height: 70px;
+        align-items: center;
+    }
+    .navbar-collapse {
+        float:none;
+        display:inline-block;
+        vertical-align: top;
+    }
+
     .nav-item:hover{
-        background-color: white;
-        z-index: 5;  
+        color: white;
+        border : 2px solid rgb(12, 12, 86);
+        background-color: #3e4d8e;
         }
         .navbar-nav {
-            margin-left: auto;
             
+            margin-left: auto;
         }
     .img1{
             width: 100%;
@@ -139,8 +155,8 @@
         }
         
         /* Style the submit button with a specific background color etc */
-    input[type=submit] {
-            width: 50%;
+        .SubmitButton{
+            width: 100%;
             background-color: #04AA6D;
             color: white;
             padding: 12px 20px;
@@ -148,20 +164,24 @@
             border-radius: 4px;
             cursor: pointer;
         }
-        
         /* When moving the mouse over the submit button, add a darker green color */
-    input[type=submit]:hover {
-            width: 50%;
+        .SubmitButton:hover{
             background-color: #45a049;
+
         }
 
     label{
         width: 100px;
     }
+
+    textarea{
+        width: 100%;
+    };
+
     .headings{
         color:rgb(12, 12, 86);
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+    };
     .paragraphs{
         text-indent: 10px;
         color:rgb(12, 12, 86);
@@ -179,5 +199,5 @@
     }
     .clientsrows{
         padding:20px;
-        
-    }
+  }
+  
