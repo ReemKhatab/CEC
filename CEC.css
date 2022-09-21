@@ -215,4 +215,10 @@
   color:rgb(12, 12, 86);
   text-align:justify;
   }
+  .footer{
+    background-color: rgb(12, 12, 86);
+    color:white;
+    font-size: small;
+    padding:5px;
+  }
   
