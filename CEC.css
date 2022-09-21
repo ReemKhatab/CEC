@@ -174,11 +174,13 @@
 
     textarea{
         width: 100%;
-    };
+    }
 
     .headings{
-        color:rgb(12, 12, 86);
+      color:rgb(12, 12, 86);
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-bottom: 20px;
+      
     }
     .paragraphs{
         text-indent: 10px;
