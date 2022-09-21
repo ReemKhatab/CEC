@@ -202,4 +202,26 @@
     .clientsrows{
         padding:20px;
   }
+<<<<<<< HEAD
+=======
+  .homehead{
+    text-align: center;
+   padding:20px;
+  }
+  .homerow{
+    background-color: rgb(249, 249, 249);
+    border:10px solid white;
+    padding:10px;
+  }
+  .homelist{
+  color:rgb(12, 12, 86);
+  text-align:justify;
+  }
+  .footer{
+    background-color: rgb(12, 12, 86);
+    color:white;
+    font-size: small;
+    padding:5px;
+  }
+>>>>>>> 8d7eb5e665be1e1f053289b542a00b6a80f53c1f
   
