@@ -169,12 +169,12 @@
 
     label{
         width: 100px;
-        border-bottom: ;
+        border-bottom: 0;
     }
 
     textarea{
         width: 100%;
-    }
+    };
 
     .headings{
         color:rgb(12, 12, 86);
@@ -199,7 +199,8 @@
     .clientsrows{
         padding:20px;
   }
-  .homehead{
+  
+ .homehead{
     text-align: center;
    padding:20px;
   }
