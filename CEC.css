@@ -69,18 +69,15 @@
         text-decoration: none;
         display: block;}
     .nav-item{
-        font-weight: 450;
         display:  block;
-        height: 77px;
         background-color: #e7e4e4;
-        font-size: 12pt;
+        font-size: large;
         padding:10px;
         z-index: 5; 
         border : 2px solid #e7e4e4;
         }
     
     .nav-link{
-        height: 70px;
         align-items: center;
     }
     .navbar-collapse {
@@ -92,7 +89,7 @@
     .nav-item:hover{
         color: white;
         border : 2px solid rgb(12, 12, 86);
-        background-color: #3e4d8e;
+        background-color: white;
         }
         .navbar-nav {
             
