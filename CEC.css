@@ -201,17 +201,6 @@ textarea {
 .projectscolor {
   color: #ffc400;
 }
-
-  }
-  /* Keyword values */
-  img {
-    image-rendering: auto;
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
-  
-    /* Safari seems to support, but seems deprecated and does the same thing as the others. */
-    image-rendering: -webkit-optimize-contrast;
-  }
   .projectslist{
     padding:5px;
     font-size: large;
