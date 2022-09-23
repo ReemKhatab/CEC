@@ -216,3 +216,9 @@
     /* Safari seems to support, but seems deprecated and does the same thing as the others. */
     image-rendering: -webkit-optimize-contrast;
   }
+  .projectslist{
+    padding:5px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
