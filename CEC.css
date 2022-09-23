@@ -239,3 +239,14 @@ img {
   width: 50%;
   padding: 0px;
 }
+
+.projectsdata{
+  background-color: rgb(12, 12, 86);
+  border:rgb(12, 12, 86);
+}
+.bluebg{
+  background-color: rgb(12, 12, 86);
+}
+.btn:hover{
+  background-color: rgb(16, 16, 104);
+}
