@@ -188,7 +188,6 @@ textarea {
 }
 .homerow {
   background-color: rgb(249, 249, 249);
-  border: 10px solid white;
   padding: 10px;
 }
 .homelist {
@@ -200,6 +199,7 @@ textarea {
   color: white;
   font-size: small;
   padding: 10px;
+  margin: 0%;
   
 }
 .projectscolor {
@@ -227,20 +227,22 @@ img {
   image-rendering: -webkit-optimize-contrast;
 }
 
-
-/* .row.homerow.p-4 {
-  width: 100%;
-} */
-/* .col-md-6L {
+.col-md-6R {
+  float: left;
   width: 50%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 10px;
+  height: auto;
+  background-color: green;
+}  
+
+.col-md-6L {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: auto;
+  background-color: greenyellow;
 }
 
-.col-md-6R {
-  width: 50%;
-  padding: 0px;
-} */
 
 .projectsdata{
   background-color: rgb(12, 12, 86);
@@ -255,4 +257,8 @@ img {
 
 .row{
   width:100%;
+  margin: 0%;
+}
+.row-RU{
+  height: 50%;
 }
