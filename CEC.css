@@ -95,6 +95,7 @@
   color: #ffc400;
   padding: 10px;
   padding-left: 10px;
+  margin-left: 13%;
 }
 
 .col-md-9 {
@@ -179,6 +180,9 @@ textarea {
   color: rgb(12, 12, 86);
   font-weight: 500;
 }
+.list-group-item:hover {
+  color:#ffc400;
+}
 .clientsrows {
   padding: 20px;
   
@@ -238,10 +242,11 @@ img {
 .col-md-6L {
   float: left;
   width: 50%;
-  padding: 10px;
+  padding-top: 6%;
   height: auto;
   background-color: white;
 }
+
 
 
 .projectsdata{
@@ -281,7 +286,7 @@ img {
   margin: 0%;
 }
 .row-RU{
-  height: 50%;
+  font-size: 10pt;
   background-color:rgb(249, 249, 249) ;
 }
 .row-RD{
