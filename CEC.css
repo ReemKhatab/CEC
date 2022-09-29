@@ -122,6 +122,12 @@
   padding-left: 10px;
 }
 
+.col-md-12 {
+  color: #ffc400;
+  padding: 10px;
+  padding-left: 10px;
+}
+
 input[type="text"],
 select,
 textarea {
