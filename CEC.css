@@ -1,8 +1,6 @@
 .container-fluid {
   margin: 0px;
   padding: 0px;
- 
- 
 }
 @media screen and (max-width: 600px) {
   .column {
@@ -46,6 +44,7 @@
 }
 
 .nav-link {
+  font-size: 10pt;
   align-items: center;
   
 }
@@ -72,6 +71,8 @@
 }
 .swiper {
   position: relative;
+  width:100%;
+  height:100%;
 
 }
 .swiper .img {
@@ -198,6 +199,12 @@ textarea {
   text-align: center;
   padding: 15px;
 }
+.homehead-About{
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(12, 12, 86);
+  color:#ffc400;
+}
 .homerow {
   background-color: rgb(249, 249, 249);
   padding: 10px;
@@ -207,12 +214,11 @@ textarea {
   text-align: justify;
 }
 .footer {
+  font-size: 8pt;
   background-color: rgb(12, 12, 86);
   color: white;
-  font-size: small;
   padding: 10px;
-  margin: 0%;
-  
+  margin: 0%; 
 }
 
   .projectslist{
@@ -235,24 +241,28 @@ img {
 
   /* Safari seems to support, but seems deprecated and does the same thing as the others. */
   image-rendering: -webkit-optimize-contrast;
-}
+} 
 
-.col-md-6R {
-  float: left;
-  width: 50%;
-  padding: 10px;
+
+.col-md-13{
+  width: auto;
+  margin-left: auto;
   height: auto;
   background-color:white;
-}  
-
-.col-md-6L {
-  float: left;
-  width: 50%;
-  padding-top: 6%;
-  height: auto;
-  background-color: white;
+  padding-left: 0;
+  padding-right: 0%;
 }
 
+.col-md-14{
+  margin-left: auto;
+  height: auto;
+  background-color: rgb(12, 12, 86);
+  padding-left: 0;
+  padding-right: 0%;
+}
+.col-md-6{
+  padding-right: 0%;
+}
 
 
 .projectsdata{
@@ -308,4 +318,7 @@ img {
   color:rgb(12,12,86);
   text-decoration:none;
   font-weight:500;
+}
+.paragraphs{
+  font-size: 11pt;
 }

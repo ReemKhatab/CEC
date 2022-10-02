@@ -45,6 +45,7 @@
   }
   
   .nav-link {
+    font-size: 10pt;
     align-items: center;
   }
   .navbar-collapse {
@@ -95,4 +96,12 @@ svg path:hover{
   }
   .whitebg{
     background-color: white;
+  }
+
+  .footer {
+    font-size: 8pt;
+    background-color: rgb(12, 12, 86);
+    color: white;
+    padding: 10px;
+    margin: 0%; 
   }
