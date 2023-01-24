@@ -95,9 +95,7 @@
               } 
 .col-md-8 {
   color: #ffc400;
-  padding: 10px;
-  padding-left: 10px;
-  margin-left: 13%;
+  padding: 20px;
 }
 
 .col-md-9 {
@@ -192,9 +190,7 @@ textarea {
   color:#ffc400;
 }
 .clientsrows {
-  padding: 20px;
-  
-  
+  padding: 20px; 
 }
 .clientcolumns
 {
