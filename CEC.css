@@ -194,6 +194,11 @@ textarea {
 .clientsrows {
   padding: 20px;
   
+  
+}
+.clientcolumns
+{
+  padding-bottom:20px;
 }
 
 .homehead {
