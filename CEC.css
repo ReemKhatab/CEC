@@ -222,11 +222,13 @@ textarea {
   padding: 10px;
   margin: 0%; 
 }
-
+.boldtext{
+  font-weight: bold;
+}
   .projectslist{
     padding:5px;
     font-size: large;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 .nav-item a :hover {
